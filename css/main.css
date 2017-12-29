@@ -1,5 +1,102 @@
+body {
+  font-family: "Noto Sans", sans-serif;
+  color: #261d1a;
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.txt-sm {
+  font-size: 14px;
+}
+
+.txt-md {
+  font-size: 14px;
+}
+
+.txt-lg {
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+.txt-xl {
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+.txt-left {
+  text-align: left;
+}
+
+.txt-right {
+  text-align: right;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.light {
+  font-weight: 300;
+}
+
+.normal {
+  font-weight: 400;
+}
+
+.medium {
+  font-weight: 500;
+}
+
+.txt-dark {
+  color: #261d1a;
+}
+
+.txt-light {
+  color: #261D1A;
+}
+
+.txt-primary {
+  color: #E7C774;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
 .fp-tableCell {
   vertical-align: top;
+}
+
+@media (min-width: 1024px) {
+  body {
+    font-size: 18px;
+    line-height: 1.68;
+  }
+
+  .txt-sm {
+    font-size: 16px;
+    line-height: 1.68;
+  }
+
+  .txt-md {
+    font-size: 18px;
+    line-height: 1.68;
+  }
+
+  .txt-lg {
+    font-size: 26px;
+    line-height: 1.4;
+  }
+
+  .txt-xl {
+    font-size: 54px;
+    font-weight: 300;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
