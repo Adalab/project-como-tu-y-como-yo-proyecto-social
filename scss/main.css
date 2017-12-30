@@ -3,7 +3,7 @@
 }
 
 .m-top-none {
-  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .m-right-xs {
@@ -141,23 +141,53 @@ body {
   line-height: 1.5;
   font-weight: 400;
 }
+@media (min-width: 1024px) {
+  body {
+    font-size: 18px;
+    line-height: 1.68;
+  }
+}
 
 .txt-sm {
   font-size: 14px;
 }
+@media (min-width: 1024px) {
+  .txt-sm {
+    font-size: 16px;
+    line-height: 1.68;
+  }
+}
 
 .txt-md {
   font-size: 14px;
+}
+@media (min-width: 1024px) {
+  .txt-md {
+    font-size: 18px;
+    line-height: 1.68;
+  }
 }
 
 .txt-lg {
   font-size: 20px;
   line-height: 1.6;
 }
+@media (min-width: 1024px) {
+  .txt-lg {
+    font-size: 26px;
+    line-height: 1.4;
+  }
+}
 
 .txt-xl {
   font-size: 20px;
   line-height: 1.2;
+}
+@media (min-width: 1024px) {
+  .txt-xl {
+    font-size: 54px;
+    font-weight: 300;
+  }
 }
 
 .txt-center {
@@ -204,70 +234,8 @@ body {
   text-transform: uppercase;
 }
 
-.margin-box-map {
-  margin: 32px;
-}
-
-.margin-map {
-  margin: 32px 16px 0px 0px;
-}
-
-.max-width {
-  max-width: 768px;
-}
-
 .fp-tableCell {
   vertical-align: top;
-}
-
-@media (min-width: 768px) {
-  body {
-    font-size: 16px;
-    line-height: 1.68;
-  }
-
-  .txt-sm {
-    font-size: 16px;
-    line-height: 1.68;
-  }
-
-  .txt-md {
-    font-size: 18px;
-    line-height: 1.68;
-  }
-
-  .txt-lg {
-    font-size: 26px;
-    line-height: 1.4;
-  }
-}
-
-@media all and (min-width: 768px) {
-  .margin-box-map {
-    margin: 32px 45px 0px 45px;
-  }
-
-  .margin-map {
-    margin: 42px;
-  }
-
-  .center-image {
-    margin-right: auto;
-    margin-left: auto;
-    display: block;
-  }
-}
-
-@media (min-width: 1024px) {
-  body {
-    font-size: 18px;
-    line-height: 1.68;
-  }
-
-  .txt-xl {
-    font-size: 54px;
-    font-weight: 300;
-  }
 }
 
 /*# sourceMappingURL=main.css.map */
