@@ -1,5 +1,19 @@
 
+//Max-width
+
+.max-width {
+  max-width: 768px;
+}
+
 //Márgenes y paddings
+
+.margin-box {
+  margin: 32px 42px 32px 32px;
+
+  @media all and (min-width:768px) {
+      margin: 32px 45px 0px 45px;
+    }
+}
 
 .m-bottom-none { margin-bottom: 0; }
 .m-top-none { margin-top: 0; }
@@ -39,3 +53,13 @@
 .p-top-md { padding-top: 24px; }
 .p-top-lg { padding-top: 32px; }
 .p-top-xl { padding-top: 40px; }
+
+//Center
+
+.center {
+@media all and (min-width:768px) {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+  }
+}

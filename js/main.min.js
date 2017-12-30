@@ -2,7 +2,7 @@
 
 $(document).ready(function() {
 			$('#fullpage').fullpage({
-				sectionsColor: ['#E7C774', '#fff', '#fff', 'fff', '#fff', '#fff', '#fff', '#fff', '#fff', '#fff', '#261d1a'],
+				sectionsColor: ['#fff', '#fff', '#fff', 'fff', '#fff', '#fff', '#fff', '#fff', '#fff', '#fff', '#261d1a'],
 				scrollingSpeed: 1000,
         navigation: true,
 				navigationPosition: 'right',

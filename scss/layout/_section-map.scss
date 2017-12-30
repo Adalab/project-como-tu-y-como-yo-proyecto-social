@@ -1,11 +1,4 @@
 
-.margin-box-map {
-  margin: 32px;
-
-  @media all and (min-width:768px) {
-      margin: 32px 45px 0px 45px;
-    }
-}
 
 .margin-map {
   margin: 32px 16px 0px 0px;
@@ -13,16 +6,4 @@
   @media all and (min-width:768px) {
       margin: 42px;
     }
-}
-
-.max-width {
-  max-width: 768px;
-}
-
-.center-image {
-@media all and (min-width:768px) {
-    margin-right: auto;
-    margin-left: auto;
-    display: block;
-  }
 }

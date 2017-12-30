@@ -1,11 +1,14 @@
 
 
 @import 'core/variables';
-@import "core/generales";
 @import 'components/typography';
+@import "layout/intro";
 @import "layout/section-map";
+@import "core/generales";
 
 
 .fp-tableCell {
   vertical-align: top;
 }
+
+//Esto va en layout-conclusion
