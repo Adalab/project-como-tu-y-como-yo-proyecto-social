@@ -10,3 +10,10 @@
 .container-introduction {
   height: 35vh;
 }
+
+.padding-media {
+  @media all and (min-width:768px) {
+      padding-right: 20px;
+      padding-left: 20px;
+    }
+}
