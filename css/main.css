@@ -234,6 +234,25 @@ body {
   padding-top: 40px;
 }
 
+.header {
+  background-color: #261D1A;
+  height: 35px;
+  padding-left: 12px;
+  padding-top: 12px;
+}
+
+.header2 {
+  background-color: #E7C774;
+  height: 35px;
+  padding-left: 12px;
+  padding-top: 12px;
+}
+
+.blacklogo {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
 .fp-tableCell {
   vertical-align: top;
 }
