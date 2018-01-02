@@ -253,6 +253,13 @@ body {
   filter: grayscale(100%);
 }
 
+.arrow {
+  width: 50px;
+  margin: 50px auto 50px auto;
+  display: block;
+  opacity: 0.5;
+}
+
 .fp-tableCell {
   vertical-align: top;
 }
