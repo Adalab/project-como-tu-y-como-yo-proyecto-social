@@ -1,13 +1,33 @@
-.row1,.row3 {
-  height: 15vh;
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.row1 {
+  height: 40vh;
+  padding: 40px;
+  padding-top: 140px;
 }
 
 .row2 {
-  height: 60vh;
+  height: 30vh;
+  padding: 40px;
 }
 
-.row4 {
-  height: 10vh;
+.row3 {
+  height: 30vh;
+  padding: 40px;
+}
+
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+  max-width: 80%;
 }
 
 .fp-tableCell {
