@@ -1,14 +1,13 @@
 
-
+//Core
 @import 'core/variables';
-@import 'components/typography';
+@import "core/generales";
+
+//Layout
 @import "layout/intro";
 @import "layout/section-map";
-@import "core/generales";
 @import "layout/header";
+
+//Components
+@import 'components/typography';
 @import "components/buttons";
-
-
-.fp-tableCell {
-  vertical-align: top;
-}
