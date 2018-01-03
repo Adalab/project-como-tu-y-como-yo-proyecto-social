@@ -90,6 +90,23 @@ body {
   margin: 32px 16px 0px 0px;
 }
 
+.grid {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 1fr;
+  grid-template-rows: 10% 90%;
+}
+
+.item-1 {
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.info-img {
+  height: 50vh;
+  max-width: 80vw;
+}
+
 .max-width {
   max-width: 768px;
 }
