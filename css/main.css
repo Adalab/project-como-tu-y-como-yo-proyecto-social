@@ -6,6 +6,16 @@
   max-width: 768px;
 }
 
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
 .margin-box {
   margin: 32px 42px 32px 32px;
 }
@@ -166,6 +176,24 @@
 
 .margin-map {
   margin: 32px 16px 0px 0px;
+}
+
+.info-img {
+  height: 50vh;
+  width: 80vw;
+}
+
+.space-around {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+.hr-info {
+  width: 90%;
 }
 
 .header {
