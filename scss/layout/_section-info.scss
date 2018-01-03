@@ -1,19 +1,18 @@
 //.info-img margin-bottom: 20px;
 
-.grid {
-  display: grid;
-  height: 100vh;
-  grid-template-columns: 1fr;
-  grid-template-rows: 10% 90%;
-}
-
-
-.item-1 {
-    grid-row-start: 2;
-    grid-row-end: 3;
-}
 
 .info-img {
   height: 50vh;
   width: 80vw;
+}
+
+
+.space-around {
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+
+.hr-info {
+  width: 90%;
 }

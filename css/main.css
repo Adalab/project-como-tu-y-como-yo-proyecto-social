@@ -90,25 +90,40 @@ body {
   margin: 32px 16px 0px 0px;
 }
 
-.grid {
-  display: grid;
-  height: 100vh;
-  grid-template-columns: 1fr;
-  grid-template-rows: 10% 90%;
-}
-
-.item-1 {
-  grid-row-start: 2;
-  grid-row-end: 3;
-}
-
 .info-img {
   height: 50vh;
-  max-width: 80vw;
+  width: 80vw;
+}
+
+.fp-tableCell {
+  vertical-align: top;
+}
+
+.space-around {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+.hr-info {
+  width: 90%;
 }
 
 .max-width {
   max-width: 768px;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.grid {
+  display: grid;
 }
 
 .margin-box {
