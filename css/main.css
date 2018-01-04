@@ -2,10 +2,6 @@
   vertical-align: top;
 }
 
-.max-width {
-  max-width: 768px;
-}
-
 .flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -14,6 +10,10 @@
 
 .grid {
   display: grid;
+}
+
+.max-width {
+  max-width: 768px;
 }
 
 .margin-box {
@@ -183,17 +183,34 @@
   width: 80vw;
 }
 
-.space-around {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -ms-flex-pack: distribute;
-  justify-content: space-around;
-}
-
 .hr-info {
   width: 90%;
+}
+
+.completeviewport {
+  height: 100vh;
+  width: 100vw;
+}
+
+.info-0 {
+  -webkit-box-flex: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+}
+
+.info-1 {
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.animacion {
+  -webkit-animation-name: intro;
+  animation-name: intro;
+  -webkit-animation-duration: 5s;
+  animation-duration: 5s;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
 }
 
 .header {
@@ -292,6 +309,13 @@ body {
   opacity: 0.5;
 }
 
+.footer {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
 @media all and (min-width: 768px) {
   .margin-box {
     margin: 32px 45px 0px 45px;
@@ -335,6 +359,40 @@ body {
   }
 }
 
+@media all and (min-width: 900px) {
+  .wrapper {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100%;
+    grid-column-gap: 20px;
+  }
+
+  .completepercent {
+    height: 100%;
+  }
+
+  .hr-info {
+    display: none;
+  }
+
+  .b-r-solid {
+    border-right: 1px solid #E7C774;
+    height: 80%;
+  }
+
+  .b-l-solid {
+    border-left: 1px solid #E7C774;
+    padding-left: 15px;
+    height: 80%;
+  }
+
+  .footer {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
 @media (min-width: 1024px) {
   body {
     font-size: 18px;
@@ -344,6 +402,34 @@ body {
   .txt-xl {
     font-size: 54px;
     font-weight: 300;
+  }
+}
+
+@-webkit-keyframes intro {
+  from {
+    opacity: 0;
+    -webkit-transform: scale(10) rotate(-150deg);
+    transform: scale(10) rotate(-150deg);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes intro {
+  from {
+    opacity: 0;
+    -webkit-transform: scale(10) rotate(-150deg);
+    transform: scale(10) rotate(-150deg);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
   }
 }
 
