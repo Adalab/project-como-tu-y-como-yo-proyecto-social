@@ -13,11 +13,3 @@
 //Components
 @import 'components/typography';
 @import "components/buttons";
-
-.footer {
-  flex-direction: column;
-  @media all and (min-width:900px) {
-
-    flex-direction: row;
-  }
-}

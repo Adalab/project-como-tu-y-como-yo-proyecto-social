@@ -10,6 +10,14 @@
 .grid {
   display:grid;
 }
+.page-container {
+  display: flex;
+  flex-direction:column;
+  height: 100%;
+}
+.grow {
+  flex-grow: 1;
+}
 
 
 //Max-width

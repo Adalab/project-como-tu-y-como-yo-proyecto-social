@@ -1,8 +1,11 @@
 
 .footer {
   flex-direction: column;
-  @media all and (min-width:900px) {
 
+  @media all and (min-width:900px) {
     flex-direction: row;
+    margin:auto;
+    align-items: center;
+
   }
 }
