@@ -25,8 +25,8 @@
   margin: 32px 42px 32px 32px;
 
   @media all and (min-width:768px) {
-      margin: 32px 45px 0px 45px;
-    }
+    margin: 32px 45px 0px 45px;
+  }
 }
 
 .m-bottom-none { margin-bottom: 0; }
@@ -71,7 +71,7 @@
 //Center
 
 .center {
-@media all and (min-width:768px) {
+  @media all and (min-width:768px) {
     margin-right: auto;
     margin-left: auto;
     display: block;

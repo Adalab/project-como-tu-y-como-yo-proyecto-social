@@ -7,3 +7,25 @@
       margin: 42px;
     }
 }
+
+.container-map {
+  flex-direction: column;
+  @media all and (min-width:900px) {
+    flex-direction: row;
+  }
+}
+
+.container-img-map {
+  flex-grow: 1;
+  @media all and (min-width:900px) {
+    width: 50%;
+    flex-grow: 0;
+  }
+}
+
+.txt-map {
+  @media all and (min-width:900px) {
+    width: 30%;
+    order: 1;
+}
+}
