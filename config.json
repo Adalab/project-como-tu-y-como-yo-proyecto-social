@@ -1,6 +1,7 @@
 {
 	"scss": {
 		"src": "scss/main.scss",
+		"watch": "scss/**/*.scss",
 		"dest": "css/"
 	},
 	"js": {
