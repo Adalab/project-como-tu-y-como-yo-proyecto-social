@@ -213,6 +213,13 @@
   flex-grow: 1;
 }
 
+.pic-sec {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
 .info-img {
   max-width: 90%;
 }
@@ -389,8 +396,17 @@ body {
     order: 1;
   }
 
+  .pic-sec {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+
   .info-img {
-    max-height: 60vh;
+    padding-right: 50px;
+    max-height: 80vh;
+    max-width: 60%;
   }
 
   .wrapper {
