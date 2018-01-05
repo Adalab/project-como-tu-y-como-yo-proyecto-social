@@ -1,12 +1,13 @@
 .info-img {
-  height: 50vh;
-  width: 80vw;
+  max-width: 90%;
+  @media all and (min-width:900px) {
+        max-height: 60vh;
+    }
 }
 
 .hr-info {
   width: 90%;
 }
-
 
 @media all and (min-width:900px) {
 

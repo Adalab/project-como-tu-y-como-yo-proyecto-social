@@ -214,8 +214,7 @@
 }
 
 .info-img {
-  height: 50vh;
-  width: 80vw;
+  max-width: 90%;
 }
 
 .hr-info {
@@ -388,6 +387,10 @@ body {
     -webkit-box-ordinal-group: 2;
     -ms-flex-order: 1;
     order: 1;
+  }
+
+  .info-img {
+    max-height: 60vh;
   }
 
   .wrapper {
