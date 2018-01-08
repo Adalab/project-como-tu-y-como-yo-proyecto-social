@@ -1,12 +1,24 @@
+.pic-sec {
+  flex-direction: column;
+  @media all and (min-width:900px) {
+      flex-direction: row;
+    }
+}
+
 .info-img {
-  height: 50vh;
-  width: 80vw;
+  max-width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  @media all and (min-width:900px) {
+        padding-right: 50px;
+        max-height: 80vh;
+        max-width: 60%;
+    }
 }
 
 .hr-info {
   width: 90%;
 }
-
 
 @media all and (min-width:900px) {
 

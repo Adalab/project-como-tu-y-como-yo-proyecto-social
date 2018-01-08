@@ -213,9 +213,17 @@
   flex-grow: 1;
 }
 
+.pic-sec {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
 .info-img {
-  height: 50vh;
-  width: 80vw;
+  max-width: 90%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .hr-info {
@@ -388,6 +396,19 @@ body {
     -webkit-box-ordinal-group: 2;
     -ms-flex-order: 1;
     order: 1;
+  }
+
+  .pic-sec {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+
+  .info-img {
+    padding-right: 50px;
+    max-height: 80vh;
+    max-width: 60%;
   }
 
   .wrapper {
