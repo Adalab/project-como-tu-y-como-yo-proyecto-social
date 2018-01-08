@@ -222,6 +222,8 @@
 
 .info-img {
   max-width: 90%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .hr-info {
