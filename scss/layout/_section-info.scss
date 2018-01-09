@@ -44,3 +44,39 @@
   }
 
 }
+
+.text-left-section {
+  border-radius: 25px;
+  align-self: flex-start;
+  background-color: $color-primary;
+  padding: 25px;
+  animation-name: introLeft;
+  animation-duration: 5s;
+}
+
+.text-left-section p {
+  margin: 0;
+}
+
+@keyframes introLeft {
+    from {
+        opacity: 0;
+        transform: translate3d(-500px, 0px, 0px);
+    }
+}
+
+.text-right-section {
+  border-radius: 25px;
+  align-self: flex-start;
+  background-color: $color-primary;
+  padding: 25px;
+  animation-name: introRight;
+  animation-duration: 5s;
+}
+
+@keyframes introRight {
+    from {
+        opacity: 0;
+        transform: translate3d(500px, 0px, 0px);
+    }
+}
