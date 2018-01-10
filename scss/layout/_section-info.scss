@@ -50,19 +50,16 @@
   align-self: flex-start;
   background-color: $color-primary;
   padding: 25px;
-  animation-name: introLeft;
-  animation-duration: 5s;
+  transform: translate3d(-200%,0,0);
+  transition: transform 600ms;
+}
+
+.animation-info-left {
+  transform: translate3d(0,0,0);
 }
 
 .text-left-section p {
   margin: 0;
-}
-
-@keyframes introLeft {
-    from {
-        opacity: 0;
-        transform: translate3d(-500px, 0px, 0px);
-    }
 }
 
 .text-right-section {
@@ -70,13 +67,11 @@
   align-self: flex-start;
   background-color: $color-primary;
   padding: 25px;
-  animation-name: introRight;
-  animation-duration: 5s;
+  transform: translate3d(200%,0,0);
+  transition: transform 600ms;
+
 }
 
-@keyframes introRight {
-    from {
-        opacity: 0;
-        transform: translate3d(500px, 0px, 0px);
-    }
+.animation-info-right {
+  transform: translate3d(0,0,0);
 }
