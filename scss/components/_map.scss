@@ -1,0 +1,51 @@
+.st0 {
+  fill:#FFFFFF;
+  stroke:#E7C774;
+  stroke-linejoin:round;
+  stroke-miterlimit:10;
+}
+
+.st1 {
+  fill:#C43210;
+  stroke:#E7C774;
+  stroke-linejoin:round;
+  stroke-miterlimit:10;
+  transition: fill ease 0.5s, fill-opacity ease 0.25s;
+  &:hover {
+    fill: #E7C774;
+    fill-opacity: 1;
+  }
+}
+
+.st2 {
+  fill:#C43210;
+  stroke:#E7C774;
+  stroke-linejoin:round;
+  stroke-miterlimit:10;
+  transition: fill ease 0.5s, fill-opacity ease 0.25s;
+  &:hover {
+		fill: #E7C774;
+		fill-opacity: 1;
+	}
+}
+
+.st3 {
+  fill:#C43210;
+  transition: fill ease 0.5s, fill-opacity ease 0.25s;
+  &:hover {
+		fill: #E7C774;
+		fill-opacity: 1;
+	}
+}
+
+.st4 {
+  fill:#C43210;
+  stroke:#E7C774;
+  stroke-linejoin:round;
+  stroke-miterlimit:10;
+  transition: fill ease 0.5s, fill-opacity ease 0.25s;
+  &:hover {
+		fill: #E7C774;
+		fill-opacity: 1;
+	}
+}
