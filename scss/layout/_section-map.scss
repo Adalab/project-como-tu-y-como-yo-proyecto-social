@@ -20,6 +20,7 @@
   @media all and (min-width:900px) {
     width: 50%;
     flex-grow: 0;
+    height: 65vh;
   }
 }
 
@@ -28,4 +29,8 @@
     width: 30%;
     order: 1;
 }
+}
+
+.container-img-map svg {
+  height: 100%;
 }

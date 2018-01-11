@@ -48,3 +48,6 @@ node_modules/
 
 ### JS Sourcemaps ###
 *.js.map
+
+css/main.css.map
+js/main.min.js.map
