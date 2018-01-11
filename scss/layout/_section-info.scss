@@ -2,6 +2,7 @@
   flex-direction: column;
   @media all and (min-width:900px) {
       flex-direction: row;
+
     }
 }
 
@@ -13,7 +14,10 @@
         padding-right: 50px;
         max-height: 80vh;
         max-width: 60%;
+        transform: translate3d(-900px, 0, 0px);
+        transition: transform 1s;
     }
+
 }
 
 .hr-info {
@@ -21,6 +25,14 @@
 }
 
 @media all and (min-width:900px) {
+  .text-sec-info-pic {
+    transform: translate3d(900px, 0, 0px);
+    transition: transform 300ms;
+  }
+
+    .info-img-transition {
+      transform: translate3d(0px, 0, 0px);
+    }
 
   .wrapper {
     grid-template-columns: 1fr 1fr 1fr;

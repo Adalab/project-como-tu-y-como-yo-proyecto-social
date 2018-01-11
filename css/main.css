@@ -409,6 +409,26 @@ body {
     padding-right: 50px;
     max-height: 80vh;
     max-width: 60%;
+    -webkit-transform: translate3d(-900px, 0, 0px);
+    transform: translate3d(-900px, 0, 0px);
+    -webkit-transition: -webkit-transform 1s;
+    transition: -webkit-transform 1s;
+    transition: transform 1s;
+    transition: transform 1s, -webkit-transform 1s;
+  }
+
+  .text-sec-info-pic {
+    -webkit-transform: translate3d(900px, 0, 0px);
+    transform: translate3d(900px, 0, 0px);
+    -webkit-transition: -webkit-transform 300ms;
+    transition: -webkit-transform 300ms;
+    transition: transform 300ms;
+    transition: transform 300ms, -webkit-transform 300ms;
+  }
+
+  .info-img-transition {
+    -webkit-transform: translate3d(0px, 0, 0px);
+    transform: translate3d(0px, 0, 0px);
   }
 
   .wrapper {
