@@ -1,9 +1,8 @@
 .pic-sec {
   flex-direction: column;
   @media all and (min-width:900px) {
-      flex-direction: row;
-
-    }
+    flex-direction: row;
+  }
 }
 
 .info-img {
@@ -55,4 +54,38 @@
     height: 80%;
   }
 
+  .transition-info-left {
+    transform: translate3d(-200%,0,0);
+    transition: transform 600ms;
+  }
+
+  .animation-info-left {
+    transform: translate3d(0,0,0);
+  }
+  .transition-info-right {
+    transform: translate3d(200%,0,0);
+    transition: transform 600ms;
+  }
+
+  .animation-info-right {
+    transform: translate3d(0,0,0);
+  }
+
+  .text-left-section p {
+    margin: 0;
+  }
+
+  .text-right-section {
+    border-radius: 25px;
+    align-self: flex-start;
+    background-color: $color-primary;
+    padding: 25px;
+  }
+
+  .text-left-section {
+    border-radius: 25px;
+    align-self: flex-start;
+    background-color: $color-primary;
+    padding: 25px;
+  }
 }

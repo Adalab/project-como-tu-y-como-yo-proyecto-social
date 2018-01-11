@@ -46,6 +46,10 @@
   margin-bottom: 0;
 }
 
+.m-none {
+  margin: none;
+}
+
 .m-top-none {
   margin-top: 0;
 }
@@ -333,6 +337,66 @@ body {
   opacity: 0.5;
 }
 
+.st0 {
+  fill: #FFFFFF;
+  stroke: #E7C774;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+
+.st1 {
+  fill: #C43210;
+  stroke: #E7C774;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+  -webkit-transition: fill ease 0.5s, fill-opacity ease 0.25s;
+  transition: fill ease 0.5s, fill-opacity ease 0.25s;
+}
+
+.st1:hover {
+  fill: #E7C774;
+  fill-opacity: 1;
+}
+
+.st2 {
+  fill: #C43210;
+  stroke: #E7C774;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+  -webkit-transition: fill ease 0.5s, fill-opacity ease 0.25s;
+  transition: fill ease 0.5s, fill-opacity ease 0.25s;
+}
+
+.st2:hover {
+  fill: #E7C774;
+  fill-opacity: 1;
+}
+
+.st3 {
+  fill: #C43210;
+  -webkit-transition: fill ease 0.5s, fill-opacity ease 0.25s;
+  transition: fill ease 0.5s, fill-opacity ease 0.25s;
+}
+
+.st3:hover {
+  fill: #E7C774;
+  fill-opacity: 1;
+}
+
+.st4 {
+  fill: #C43210;
+  stroke: #E7C774;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+  -webkit-transition: fill ease 0.5s, fill-opacity ease 0.25s;
+  transition: fill ease 0.5s, fill-opacity ease 0.25s;
+}
+
+.st4:hover {
+  fill: #E7C774;
+  fill-opacity: 1;
+}
+
 @media all and (min-width: 768px) {
   .margin-box {
     margin: 32px 45px 0px 45px;
@@ -453,6 +517,54 @@ body {
     border-left: 1px solid #E7C774;
     padding-left: 15px;
     height: 80%;
+  }
+
+  .transition-info-left {
+    -webkit-transform: translate3d(-200%, 0, 0);
+    transform: translate3d(-200%, 0, 0);
+    -webkit-transition: -webkit-transform 600ms;
+    transition: -webkit-transform 600ms;
+    transition: transform 600ms;
+    transition: transform 600ms, -webkit-transform 600ms;
+  }
+
+  .animation-info-left {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  .transition-info-right {
+    -webkit-transform: translate3d(200%, 0, 0);
+    transform: translate3d(200%, 0, 0);
+    -webkit-transition: -webkit-transform 600ms;
+    transition: -webkit-transform 600ms;
+    transition: transform 600ms;
+    transition: transform 600ms, -webkit-transform 600ms;
+  }
+
+  .animation-info-right {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  .text-left-section p {
+    margin: 0;
+  }
+
+  .text-right-section {
+    border-radius: 25px;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+    background-color: #E7C774;
+    padding: 25px;
+  }
+
+  .text-left-section {
+    border-radius: 25px;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+    background-color: #E7C774;
+    padding: 25px;
   }
 
   .footer {
