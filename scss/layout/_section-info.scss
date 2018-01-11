@@ -10,10 +10,13 @@
   margin-right: auto;
   margin-left: auto;
   @media all and (min-width:900px) {
-    padding-right: 50px;
-    max-height: 80vh;
-    max-width: 60%;
-  }
+        padding-right: 50px;
+        max-height: 80vh;
+        max-width: 60%;
+        transform: translate3d(-900px, 0, 0px);
+        transition: transform 1s;
+    }
+
 }
 
 .hr-info {
@@ -21,6 +24,14 @@
 }
 
 @media all and (min-width:900px) {
+  .text-sec-info-pic {
+    transform: translate3d(900px, 0, 0px);
+    transition: transform 300ms;
+  }
+
+    .info-img-transition {
+      transform: translate3d(0px, 0, 0px);
+    }
 
   .wrapper {
     grid-template-columns: 1fr 1fr 1fr;
@@ -42,9 +53,7 @@
     padding-left: 15px;
     height: 80%;
   }
-}
 
-@media all and (min-width:900px) {
   .transition-info-left {
     transform: translate3d(-200%,0,0);
     transition: transform 600ms;

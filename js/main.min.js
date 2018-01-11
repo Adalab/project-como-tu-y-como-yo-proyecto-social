@@ -1,5 +1,7 @@
 'use strict';
 
+var picSectionInfoPic = document.querySelector ('.info-img');
+var textSectionInfoPic = document.querySelector ('.text-sec-info-pic');
 var txtLeftInfo = document.querySelector('.text-left-section');
 var txtRightInfo = document.querySelector('.text-right-section')
 
@@ -18,7 +20,12 @@ $(document).ready(function() {
 				txtLeftInfo.classList.add('animation-info-left');
 				txtRightInfo.classList.add('animation-info-right');
 			}
-			//Gema aquí va tu if
+      if(index == 6){
+
+        picSectionInfoPic.classList.add('info-img-transition')
+        textSectionInfoPic.classList.add('info-img-transition')
+
+      }
 		}
 	});
 });
