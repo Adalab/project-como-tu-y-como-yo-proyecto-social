@@ -217,6 +217,10 @@
   flex-grow: 1;
 }
 
+.container-img-map svg {
+  height: 100%;
+}
+
 .pic-sec {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -453,6 +457,7 @@ body {
     -webkit-box-flex: 0;
     -ms-flex-positive: 0;
     flex-grow: 0;
+    height: 65vh;
   }
 
   .txt-map {
