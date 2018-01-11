@@ -337,6 +337,66 @@ body {
   opacity: 0.5;
 }
 
+.st0 {
+  fill: #FFFFFF;
+  stroke: #E7C774;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+
+.st1 {
+  fill: #C43210;
+  stroke: #E7C774;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+  -webkit-transition: fill ease 0.5s, fill-opacity ease 0.25s;
+  transition: fill ease 0.5s, fill-opacity ease 0.25s;
+}
+
+.st1:hover {
+  fill: #E7C774;
+  fill-opacity: 1;
+}
+
+.st2 {
+  fill: #C43210;
+  stroke: #E7C774;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+  -webkit-transition: fill ease 0.5s, fill-opacity ease 0.25s;
+  transition: fill ease 0.5s, fill-opacity ease 0.25s;
+}
+
+.st2:hover {
+  fill: #E7C774;
+  fill-opacity: 1;
+}
+
+.st3 {
+  fill: #C43210;
+  -webkit-transition: fill ease 0.5s, fill-opacity ease 0.25s;
+  transition: fill ease 0.5s, fill-opacity ease 0.25s;
+}
+
+.st3:hover {
+  fill: #E7C774;
+  fill-opacity: 1;
+}
+
+.st4 {
+  fill: #C43210;
+  stroke: #E7C774;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+  -webkit-transition: fill ease 0.5s, fill-opacity ease 0.25s;
+  transition: fill ease 0.5s, fill-opacity ease 0.25s;
+}
+
+.st4:hover {
+  fill: #E7C774;
+  fill-opacity: 1;
+}
+
 @media all and (min-width: 768px) {
   .margin-box {
     margin: 32px 45px 0px 45px;
