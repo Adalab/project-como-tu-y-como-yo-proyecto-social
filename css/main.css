@@ -238,6 +238,10 @@
   width: 90%;
 }
 
+.img-info-img {
+  width: 100%;
+}
+
 .header {
   background-color: #261D1A;
   height: 35px;
@@ -489,10 +493,10 @@ body {
   .text-sec-info-pic {
     -webkit-transform: translate3d(900px, 0, 0px);
     transform: translate3d(900px, 0, 0px);
-    -webkit-transition: -webkit-transform 300ms;
-    transition: -webkit-transform 300ms;
-    transition: transform 300ms;
-    transition: transform 300ms, -webkit-transform 300ms;
+    -webkit-transition: -webkit-transform 1s;
+    transition: -webkit-transform 1s;
+    transition: transform 1s;
+    transition: transform 1s, -webkit-transform 1s;
   }
 
   .info-img-transition {
