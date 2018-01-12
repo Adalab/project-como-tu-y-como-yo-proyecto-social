@@ -405,6 +405,16 @@ body {
   fill-opacity: 1;
 }
 
+.graph-container {
+  width: 100%;
+  height: 100%;
+}
+
+canvas {
+  width: 100%;
+  height: 100%;
+}
+
 @media all and (min-width: 768px) {
   .margin-box {
     margin: 32px 45px 0px 45px;
