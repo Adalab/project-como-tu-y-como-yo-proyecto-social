@@ -23,10 +23,14 @@
   width: 90%;
 }
 
+.img-info-img {
+  width: 100%;
+}
+
 @media all and (min-width:900px) {
   .text-sec-info-pic {
     transform: translate3d(900px, 0, 0px);
-    transition: transform 300ms;
+    transition: transform 1s;
   }
 
     .info-img-transition {

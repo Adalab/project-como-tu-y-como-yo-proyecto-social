@@ -238,6 +238,10 @@
   width: 90%;
 }
 
+.img-info-img {
+  width: 100%;
+}
+
 .header {
   background-color: #261D1A;
   height: 35px;
@@ -316,6 +320,10 @@ body {
 
 .medium {
   font-weight: 500;
+}
+
+.bold {
+  font-weight: bold;
 }
 
 .txt-dark {
@@ -401,6 +409,17 @@ body {
   fill-opacity: 1;
 }
 
+.graph-container {
+  position: relative;
+  height: 50vh;
+  max-width: 1500px;
+  padding: 0 36px 0 32px;
+}
+
+.container-text-graphic {
+  padding: 32px;
+}
+
 @media all and (min-width: 768px) {
   .margin-box {
     margin: 32px 45px 0px 45px;
@@ -441,6 +460,10 @@ body {
   .txt-lg {
     font-size: 26px;
     line-height: 1.4;
+  }
+
+  .graph-container {
+    height: 70vh;
   }
 }
 
@@ -489,10 +512,10 @@ body {
   .text-sec-info-pic {
     -webkit-transform: translate3d(900px, 0, 0px);
     transform: translate3d(900px, 0, 0px);
-    -webkit-transition: -webkit-transform 300ms;
-    transition: -webkit-transform 300ms;
-    transition: transform 300ms;
-    transition: transform 300ms, -webkit-transform 300ms;
+    -webkit-transition: -webkit-transform 1s;
+    transition: -webkit-transform 1s;
+    transition: transform 1s;
+    transition: transform 1s, -webkit-transform 1s;
   }
 
   .info-img-transition {
@@ -581,6 +604,19 @@ body {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+  }
+}
+
+@media (min-width: 900px) {
+  .text-graphic {
+    padding-right: 300px;
+    padding-left: 300px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .graph-container {
+    padding: 0 126px 0 122px;
   }
 }
 
