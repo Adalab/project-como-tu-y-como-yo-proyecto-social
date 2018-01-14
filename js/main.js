@@ -77,11 +77,9 @@ var myBarChart = new Chart(ctx, {
 		}]
 	},
 	options: {
+		maintainAspectRatio: false,
 		legend: {
-			display: true,
-			labels: {
-				fontColor: 'rgba(255, 51, 51,0.6)'
-			}
+			display: false
 		},
 		scales: {
 			xAxes: [{

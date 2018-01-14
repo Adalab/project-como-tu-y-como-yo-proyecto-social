@@ -318,6 +318,10 @@ body {
   font-weight: 500;
 }
 
+.bold {
+  font-weight: bold;
+}
+
 .txt-dark {
   color: #261d1a;
 }
@@ -402,13 +406,14 @@ body {
 }
 
 .graph-container {
-  width: 100%;
-  height: 100%;
+  position: relative;
+  height: 50vh;
+  max-width: 1500px;
+  padding: 0 36px 0 32px;
 }
 
-canvas {
-  width: 100%;
-  height: 100%;
+.container-text-graphic {
+  padding: 32px;
 }
 
 @media all and (min-width: 768px) {
@@ -451,6 +456,10 @@ canvas {
   .txt-lg {
     font-size: 26px;
     line-height: 1.4;
+  }
+
+  .graph-container {
+    height: 70vh;
   }
 }
 
@@ -591,6 +600,19 @@ canvas {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+  }
+}
+
+@media (min-width: 900px) {
+  .text-graphic {
+    padding-right: 300px;
+    padding-left: 300px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .graph-container {
+    padding: 0 126px 0 122px;
   }
 }
 
