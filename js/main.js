@@ -39,3 +39,14 @@ function scrollDown(event){
 }
 
 buttonScrollDown.addEventListener('click', scrollDown);
+
+
+//MAP
+tippy('.st1')
+tippy('#myElement', {
+  html: document.querySelector('#myTemplate'), // Direct element option
+  arrow: true,
+  animation: 'fade',
+  distance: 15,
+  arrowTransform: 'scale(2)'
+})
