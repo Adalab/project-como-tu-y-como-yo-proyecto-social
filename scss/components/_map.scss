@@ -6,7 +6,7 @@
 }
 
 .st1 {
-  fill:#C43210;
+  fill:rgba(255, 51, 51,0.6);
   stroke:#E7C774;
   stroke-linejoin:round;
   stroke-miterlimit:10;
@@ -18,7 +18,7 @@
 }
 
 .st2 {
-  fill:#C43210;
+  fill:rgba(255, 51, 51,0.6);
   stroke:#E7C774;
   stroke-linejoin:round;
   stroke-miterlimit:10;
@@ -30,7 +30,7 @@
 }
 
 .st3 {
-  fill:#C43210;
+  fill:rgba(255, 51, 51,0.6);
   transition: fill ease 0.5s, fill-opacity ease 0.25s;
   &:hover {
 		fill: #E7C774;
@@ -39,7 +39,7 @@
 }
 
 .st4 {
-  fill:#C43210;
+  fill:rgba(255, 51, 51,0.6);
   stroke:#E7C774;
   stroke-linejoin:round;
   stroke-miterlimit:10;

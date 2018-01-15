@@ -345,7 +345,7 @@ body {
 .arrow {
   width: 50px;
   margin: 20px auto 40px auto;
-  display: block;
+  display: none;
   opacity: 0.5;
 }
 
@@ -357,7 +357,7 @@ body {
 }
 
 .st1 {
-  fill: #C43210;
+  fill: rgba(255, 51, 51, 0.6);
   stroke: #E7C774;
   stroke-linejoin: round;
   stroke-miterlimit: 10;
@@ -371,7 +371,7 @@ body {
 }
 
 .st2 {
-  fill: #C43210;
+  fill: rgba(255, 51, 51, 0.6);
   stroke: #E7C774;
   stroke-linejoin: round;
   stroke-miterlimit: 10;
@@ -385,7 +385,7 @@ body {
 }
 
 .st3 {
-  fill: #C43210;
+  fill: rgba(255, 51, 51, 0.6);
   -webkit-transition: fill ease 0.5s, fill-opacity ease 0.25s;
   transition: fill ease 0.5s, fill-opacity ease 0.25s;
 }
@@ -396,7 +396,7 @@ body {
 }
 
 .st4 {
-  fill: #C43210;
+  fill: rgba(255, 51, 51, 0.6);
   stroke: #E7C774;
   stroke-linejoin: round;
   stroke-miterlimit: 10;
@@ -438,6 +438,10 @@ body {
 
   .margin-map {
     margin: 42px;
+  }
+
+  .arrow {
+    display: block;
   }
 }
 

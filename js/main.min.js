@@ -11,7 +11,7 @@ $(document).ready(function() {
 		scrollingSpeed: 1000,
 		navigation: true,
 		navigationPosition: 'right',
-		navigationTooltips: ['First page', 'Second page', 'Third and last page'],
+		navigationTooltips: ['Portada', 'Introducción', 'De dónde vienen 1', 'De dónde vienen 2', 'Diques: Argelia y Marruecos 1', 'Diques: Argelia y Marruecos 2', 'Frontera Sur 1', 'Frontera Sur 2', 'España', 'Solicitudes pendientes de resolución', 'Fuentes'],
 
 		//Animación cuando llegue a la página
 		afterLoad: function(anchorLink, index){
