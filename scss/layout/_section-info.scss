@@ -16,7 +16,7 @@
         max-height: 80vh;
         max-width: 60%;
         transform: translate3d(-900px, 0, 0px);
-        transition: transform 1s;
+        transition: transform 600ms;
     }
 
 }
@@ -32,16 +32,16 @@
 @media all and (min-width:900px) {
   .into-txt {
     margin-right: auto;
-    margin-left: auto;  
+    margin-left: auto;
   }
 
   .text-sec-info-pic {
     transform: translate3d(900px, 0, 0px);
-    transition: transform 1s;
+    transition: transform 600ms;
   }
 
     .info-img-transition {
-      transform: translate3d(0px, 0, 0px);
+      transform: translate3d(0, 0, 0);
     }
 
   .wrapper {

@@ -511,10 +511,10 @@ body {
     max-width: 60%;
     -webkit-transform: translate3d(-900px, 0, 0px);
     transform: translate3d(-900px, 0, 0px);
-    -webkit-transition: -webkit-transform 1s;
-    transition: -webkit-transform 1s;
-    transition: transform 1s;
-    transition: transform 1s, -webkit-transform 1s;
+    -webkit-transition: -webkit-transform 600ms;
+    transition: -webkit-transform 600ms;
+    transition: transform 600ms;
+    transition: transform 600ms, -webkit-transform 600ms;
   }
 
   .into-txt {
@@ -525,15 +525,15 @@ body {
   .text-sec-info-pic {
     -webkit-transform: translate3d(900px, 0, 0px);
     transform: translate3d(900px, 0, 0px);
-    -webkit-transition: -webkit-transform 1s;
-    transition: -webkit-transform 1s;
-    transition: transform 1s;
-    transition: transform 1s, -webkit-transform 1s;
+    -webkit-transition: -webkit-transform 600ms;
+    transition: -webkit-transform 600ms;
+    transition: transform 600ms;
+    transition: transform 600ms, -webkit-transform 600ms;
   }
 
   .info-img-transition {
-    -webkit-transform: translate3d(0px, 0, 0px);
-    transform: translate3d(0px, 0, 0px);
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
   }
 
   .wrapper {

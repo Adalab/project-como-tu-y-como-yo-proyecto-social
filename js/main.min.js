@@ -1,7 +1,7 @@
 'use strict';
 
-var picSectionInfoPic = document.querySelector ('.info-img');
-var textSectionInfoPic = document.querySelector ('.text-sec-info-pic');
+var picSectionInfoPic = document.querySelectorAll ('.info-img');
+var textSectionInfoPic = document.querySelectorAll ('.text-sec-info-pic');
 var txtLeftInfo = document.querySelector('.text-left-section');
 var txtRightInfo = document.querySelector('.text-right-section')
 
@@ -21,12 +21,12 @@ $(document).ready(function() {
 				txtRightInfo.classList.add('animation-info-right');
 			}
       if(index == 6){
-        picSectionInfoPic.classList.add('info-img-transition')
-        textSectionInfoPic.classList.add('info-img-transition')
+        picSectionInfoPic[0].classList.add('info-img-transition')
+        textSectionInfoPic[0].classList.add('info-img-transition')
       }
 			if(index == 8){
-        picSectionInfoPic.classList.add('info-img-transition')
-        textSectionInfoPic.classList.add('info-img-transition')
+        picSectionInfoPic[1].classList.add('info-img-transition')
+        textSectionInfoPic[1].classList.add('info-img-transition')
       }
 		},
 		onLeave: function(){
