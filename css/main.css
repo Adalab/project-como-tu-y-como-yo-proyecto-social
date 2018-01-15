@@ -517,6 +517,11 @@ body {
     transition: transform 1s, -webkit-transform 1s;
   }
 
+  .into-txt {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
   .text-sec-info-pic {
     -webkit-transform: translate3d(900px, 0, 0px);
     transform: translate3d(900px, 0, 0px);
