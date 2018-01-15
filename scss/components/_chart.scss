@@ -1,16 +1,16 @@
 
 .graph-container{
- position: relative;
- height:50vh;
- max-width: 1500px;
- padding: 0 36px 0 32px;
- @media (min-width: 768px) {
-   height:62vh;
- }
- @media (min-width: 1000px) {
-   padding: 0 126px 0 122px;
-   height:49vh;
- }
+  position: relative;
+  height:50vh;
+  max-width: 1500px;
+  padding: 0 36px 0 32px;
+  @media (min-width: 768px) {
+    height:62vh;
+  }
+  @media (min-width: 1000px) {
+    padding: 0 126px 0 122px;
+    height:49vh;
+  }
 }
 
 .container-text-graphic {

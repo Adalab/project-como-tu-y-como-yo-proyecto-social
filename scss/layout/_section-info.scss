@@ -12,12 +12,12 @@
   margin-right: auto;
   margin-left: auto;
   @media all and (min-width:900px) {
-        padding-right: 50px;
-        max-height: 80vh;
-        max-width: 60%;
-        transform: translate3d(-900px, 0, 0px);
-        transition: transform 600ms;
-    }
+    padding-right: 50px;
+    max-height: 80vh;
+    max-width: 60%;
+    transform: translate3d(-900px, 0, 0px);
+    transition: transform 600ms;
+  }
 
 }
 
@@ -40,9 +40,9 @@
     transition: transform 600ms;
   }
 
-    .info-img-transition {
-      transform: translate3d(0, 0, 0);
-    }
+  .info-img-transition {
+    transform: translate3d(0, 0, 0);
+  }
 
   .wrapper {
     grid-template-columns: 1fr 1fr 1fr;

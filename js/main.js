@@ -20,14 +20,14 @@ $(document).ready(function() {
 				txtLeftInfo.classList.add('animation-info-left');
 				txtRightInfo.classList.add('animation-info-right');
 			}
-      if(index == 6){
-        picSectionInfoPic[0].classList.add('info-img-transition')
-        textSectionInfoPic[0].classList.add('info-img-transition')
-      }
+			if(index == 6){
+				picSectionInfoPic[0].classList.add('info-img-transition')
+				textSectionInfoPic[0].classList.add('info-img-transition')
+			}
 			if(index == 8){
-        picSectionInfoPic[1].classList.add('info-img-transition')
-        textSectionInfoPic[1].classList.add('info-img-transition')
-      }
+				picSectionInfoPic[1].classList.add('info-img-transition')
+				textSectionInfoPic[1].classList.add('info-img-transition')
+			}
 		},
 		onLeave: function(){
 			const poppers = document.querySelectorAll('.has-tooltip')
@@ -107,93 +107,93 @@ var myBarChart = new Chart(ctx, {
 //map1
 tippy('.bi', {
 	trigger: 'click',
-  html: document.querySelector('.burundi'),
-  arrow: true,
-  animation: 'fade',
-  distance: 15,
-  arrowTransform: 'scale(2)'
+	html: document.querySelector('.burundi'),
+	arrow: true,
+	animation: 'fade',
+	distance: 15,
+	arrowTransform: 'scale(2)'
 })
 
 tippy('.cf', {
 	trigger: 'click',
-  html: document.querySelector('.centroafrica'),
-  arrow: true,
-  animation: 'fade',
-  distance: 15,
-  arrowTransform: 'scale(2)'
+	html: document.querySelector('.centroafrica'),
+	arrow: true,
+	animation: 'fade',
+	distance: 15,
+	arrowTransform: 'scale(2)'
 })
 
 tippy('.ss', {
 	trigger: 'click',
-  html: document.querySelector('.sudan'),
-  arrow: true,
-  animation: 'fade',
-  distance: 15,
-  arrowTransform: 'scale(2)'
+	html: document.querySelector('.sudan'),
+	arrow: true,
+	animation: 'fade',
+	distance: 15,
+	arrowTransform: 'scale(2)'
 })
 
 tippy('.ng', {
 	trigger: 'click',
-  html: document.querySelector('.nigeria'),
-  arrow: true,
-  animation: 'fade',
-  distance: 15,
-  arrowTransform: 'scale(2)'
+	html: document.querySelector('.nigeria'),
+	arrow: true,
+	animation: 'fade',
+	distance: 15,
+	arrowTransform: 'scale(2)'
 })
 
 tippy('.cd', {
 	trigger: 'click',
-  html: document.querySelector('.congo'),
-  arrow: true,
-  animation: 'fade',
-  distance: 15,
-  arrowTransform: 'scale(2)'
+	html: document.querySelector('.congo'),
+	arrow: true,
+	animation: 'fade',
+	distance: 15,
+	arrowTransform: 'scale(2)'
 })
 
 //map 2
 tippy('.dz', {
 	trigger: 'click',
-  html: document.querySelector('.argelia'),
-  arrow: true,
-  animation: 'fade',
-  distance: 15,
-  arrowTransform: 'scale(2)'
+	html: document.querySelector('.argelia'),
+	arrow: true,
+	animation: 'fade',
+	distance: 15,
+	arrowTransform: 'scale(2)'
 })
 
 tippy('.ma', {
 	trigger: 'click',
-  html: document.querySelector('.marruecos'),
-  arrow: true,
-  animation: 'fade',
-  distance: 15,
-  arrowTransform: 'scale(2)'
+	html: document.querySelector('.marruecos'),
+	arrow: true,
+	animation: 'fade',
+	distance: 15,
+	arrowTransform: 'scale(2)'
 })
 
 //map 3
 tippy('.me', {
 	trigger: 'click',
-  html: document.querySelector('.melilla'),
-  arrow: true,
-  animation: 'fade',
-  distance: 15,
-  arrowTransform: 'scale(2)'
+	html: document.querySelector('.melilla'),
+	arrow: true,
+	animation: 'fade',
+	distance: 15,
+	arrowTransform: 'scale(2)'
 })
 
 tippy('.ce', {
 	trigger: 'click',
-  html: document.querySelector('.ceuta'),
-  arrow: true,
-  animation: 'fade',
-  distance: 15,
-  arrowTransform: 'scale(2)'
+	html: document.querySelector('.ceuta'),
+	arrow: true,
+	animation: 'fade',
+	distance: 15,
+	arrowTransform: 'scale(2)'
 })
 
 //map 4
 tippy('.es', {
 	trigger: 'click',
-  html: document.querySelector('.espanha'),
-  arrow: true,
-  animation: 'fade',
-  distance: 15,
-  arrowTransform: 'scale(2)'
+	html: document.querySelector('.espanha'),
+	arrow: true,
+	animation: 'fade',
+	distance: 15,
+	arrowTransform: 'scale(2)'
 })
