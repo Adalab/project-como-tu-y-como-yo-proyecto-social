@@ -21,10 +21,12 @@ $(document).ready(function() {
 				txtRightInfo.classList.add('animation-info-right');
 			}
       if(index == 6){
-
         picSectionInfoPic.classList.add('info-img-transition')
         textSectionInfoPic.classList.add('info-img-transition')
-
+      }
+			if(index == 8){
+        picSectionInfoPic.classList.add('info-img-transition')
+        textSectionInfoPic.classList.add('info-img-transition')
       }
 		},
 		onLeave: function(){
