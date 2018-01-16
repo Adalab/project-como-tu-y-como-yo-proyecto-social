@@ -509,8 +509,8 @@ body {
     padding-right: 50px;
     max-height: 80vh;
     max-width: 60%;
-    -webkit-transform: translate3d(-900px, 0, 0px);
-    transform: translate3d(-900px, 0, 0px);
+    -webkit-transform: translate3d(-1300px, 0, 0px);
+    transform: translate3d(-1300px, 0, 0px);
     -webkit-transition: -webkit-transform 600ms;
     transition: -webkit-transform 600ms;
     transition: transform 600ms;
@@ -523,8 +523,8 @@ body {
   }
 
   .text-sec-info-pic {
-    -webkit-transform: translate3d(900px, 0, 0px);
-    transform: translate3d(900px, 0, 0px);
+    -webkit-transform: translate3d(1300px, 0, 0px);
+    transform: translate3d(1300px, 0, 0px);
     -webkit-transition: -webkit-transform 600ms;
     transition: -webkit-transform 600ms;
     transition: transform 600ms;
